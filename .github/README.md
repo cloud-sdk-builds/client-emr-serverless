@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-emr-serverless`](https://www.npmjs.com/package/@aws-sdk/client-emr-serverless/v/3.477.0).
+[`@aws-sdk/client-emr-serverless`](https://www.npmjs.com/package/@aws-sdk/client-emr-serverless/v/3.478.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.477.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.478.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-4cvCumV2yRjZlbZ/IPm4gUDtCqiCtbvXMMiKgJT7jkreUsLM+XMQMm383ZAcg8tV
+sha384-pzbdaDymL6dV8+4tPmE2Aq5uwIM9Zb1EGlFFTFyDnNOqPRoMZCBSUFx9S9txnqRq
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-emr-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.477.0/index.min.mjs"
+            "@aws-sdk/client-emr-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.478.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.477.0/index.min.mjs": "sha384-4cvCumV2yRjZlbZ/IPm4gUDtCqiCtbvXMMiKgJT7jkreUsLM+XMQMm383ZAcg8tV"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.478.0/index.min.mjs": "sha384-pzbdaDymL6dV8+4tPmE2Aq5uwIM9Zb1EGlFFTFyDnNOqPRoMZCBSUFx9S9txnqRq"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-emr-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.477.0/index.min.mjs"
+                        "@aws-sdk/client-emr-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.478.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.477.0/index.min.mjs": "sha384-4cvCumV2yRjZlbZ/IPm4gUDtCqiCtbvXMMiKgJT7jkreUsLM+XMQMm383ZAcg8tV"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-serverless@3.478.0/index.min.mjs": "sha384-pzbdaDymL6dV8+4tPmE2Aq5uwIM9Zb1EGlFFTFyDnNOqPRoMZCBSUFx9S9txnqRq"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.477.0`)
+* Always pin to a specific version (`@3.478.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-emr-serverless/blob/refs/tags/3.477.0/LICENSE
+https://github.com/cloud-sdk-builds/client-emr-serverless/blob/refs/tags/3.478.0/LICENSE
 ```
 
 ---
